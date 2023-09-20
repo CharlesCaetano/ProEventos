@@ -29,7 +29,7 @@ namespace PropEventos.API.Controllers
                     Lote = "2º Lote",
                     QtdPessoas = 350,
                     DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
-                    ImagemURL = "foto1.png"
+                    ImagemURL = "foto11.png"
                 }
         };
 
