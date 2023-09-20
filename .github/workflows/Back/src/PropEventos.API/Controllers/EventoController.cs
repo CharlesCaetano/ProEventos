@@ -29,13 +29,22 @@ namespace PropEventos.API.Controllers
                     Lote = "2º Lote",
                     QtdPessoas = 350,
                     DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
-                    ImagemURL = "foto11.png"
+                    ImagemURL = "minhafotoEvento2.png"
+                }
+                ,
+                 new Evento(){
+                    EventoId = 3,
+                    Tema = "Angular suas novidades",
+                    Local = "São Paulo",
+                    Lote = "2º Lote",
+                    QtdPessoas = 350,
+                    DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
+                    ImagemURL = "minhafotoEvento2.png"
                 }
         };
 
          public EventoController()
-        {    
-          
+        {              
         }
 
         [HttpGet("{id}")]
