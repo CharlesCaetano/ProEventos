@@ -40,6 +40,15 @@ namespace PropEventos.API.Controllers
                     QtdPessoas = 350,
                     DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
                     ImagemURL = "minhafotoEvento3.png"
+                },
+                 new Evento(){
+                    EventoId = 4,
+                    Tema = "Angular suas novidades ..",
+                    Local = "São Paulo",
+                    Lote = "2º Lote",
+                    QtdPessoas = 450,
+                    DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
+                    ImagemURL = "minhafotoEvento4.png"
                 }
         };
 
