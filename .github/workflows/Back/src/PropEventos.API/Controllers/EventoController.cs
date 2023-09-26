@@ -57,7 +57,7 @@ namespace PropEventos.API.Controllers
                     Lote = "5º Lote",
                     QtdPessoas = 450,
                     DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
-                    ImagemURL = "minhafotoEvento5 teste.png"
+                    ImagemURL = "minhafotoEvento5 testessssrr.png"
                 }
         };
 
